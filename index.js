@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require("path");
 const Tesseract = require("node-tesseract-ocr");
 const Jimp = require("jimp");
 const imagePath = fs.readFileSync(__dirname + "/assets/example.png");
